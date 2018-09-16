@@ -12,6 +12,7 @@ body {
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	word-spacing: 0.05em;
+	overflow-x: hidden;
 }
 
 a {
@@ -31,7 +32,8 @@ a {
 	width: 100%;
 	background: rgba(255,255,255,0.97);
 	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
-	position: sticky;
+	position: fixed;
+	z-index: 1000;
 }
 
 .header-img {
@@ -84,6 +86,47 @@ h2 {
 h2 > .track {
 	color: #540CFA;
 }
+
+/*===============*/
+/*Hero Section   */
+/*===============*/
+
+.hero {
+	height: 1312.13px;
+	padding-top: 50px;
+}
+
+.shape-container {
+	width: 850px;
+	height: 850px;
+	position: absolute;
+	left: 75%;
+	top: -120px;
+}
+
+.shape1 {
+	height: 600px;
+	width: 600px;
+	background-image: linear-gradient(to left bottom, #1C0FD7, #A10BE2);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	opacity: 0.9;
+	border-radius: 40px;
+	transform: rotate(45deg);
+	position: absolute;
+	z-index: 500;
+}
+
+.shape2 {
+	height: 600px;
+	width: 600px;
+	background-image: linear-gradient(to left top, #FC3832, #F2C314);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+	opacity: 0.9;
+	border-radius: 40px;
+	transform: rotate(65deg);
+	position: absolute;
+}
+
 
 
 
