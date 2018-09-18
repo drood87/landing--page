@@ -33,7 +33,7 @@ a {
 	background: rgba(255,255,255,0.97);
 	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
 	position: fixed;
-	z-index: 1000;
+	z-index: 2000;
 }
 
 .header-img {
@@ -130,16 +130,19 @@ h2 > .track {
 /*======================*/
 /*email subscribe form  */
 /*======================*/
+
+.banner {
+	display: flex;
+}
+
 .emailnewsletter {
 	max-width: 570px;
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
 	margin-left: 12%;
+	margin-top: 150px;
 }
 
 form {
-	width: 100%;
+	width: 80%;
 }
 
 .subscribe {
@@ -149,15 +152,16 @@ form {
 .emailnewsletter > h1 {
 	font-size: 4em;
 	font-weight: 900;
-	margin-bottom: 20px;
 	line-height: 72px;
+	margin-bottom: 20px;
 }
 
 .emailnewsletter > p {
 	font-size: 1.16em;
 	line-height: 32px;
 	font-weight: 300;
-	max-width: 471px;
+	max-width: 480px;
+	margin-bottom: 29px;
 }
 
 .full-input {
@@ -209,6 +213,15 @@ input {
 	color: #fff;
 	border-radius: 0px 4px 4px 0px;
 	cursor: pointer;
+}
+
+.iphone {
+	z-index: 1000;
+	margin-top: 85px;
+	margin-left: 10%;
+	height: 620px;
+	width: 310px;
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
 
