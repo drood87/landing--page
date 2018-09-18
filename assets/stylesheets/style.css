@@ -251,6 +251,17 @@ input {
 	justify-content: space-between;
 }
 
+.shape3 {
+	width: 300px;
+	height: 300px;
+	background-image: linear-gradient(to left top, #3214F2, #32FBFC);
+	position: absolute;
+	transform: rotate(45deg);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+	border-radius: 40px;
+	left: -16%;
+}
+
 
 
 
