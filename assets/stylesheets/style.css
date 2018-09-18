@@ -133,11 +133,11 @@ h2 > .track {
 
 .banner {
 	display: flex;
+	justify-content: space-around;
 }
 
 .emailnewsletter {
 	max-width: 570px;
-	margin-left: 12%;
 	margin-top: 150px;
 }
 
@@ -190,6 +190,8 @@ form {
 	height: 1.5rem;
 }
 
+/*get rid of yellow ackground in input element in Google Chrome*/
+
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
@@ -218,7 +220,7 @@ input {
 .iphone {
 	z-index: 1000;
 	margin-top: 85px;
-	margin-left: 10%;
+	
 	height: 620px;
 	width: 310px;
 	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
