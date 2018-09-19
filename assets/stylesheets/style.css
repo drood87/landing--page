@@ -92,7 +92,6 @@ h2 > .track {
 /*===============*/
 
 .hero {
-	height: 1312.13px;
 	padding-top: 50px;
 }
 
@@ -247,8 +246,9 @@ input {
 
 .compatiblelogos {
 	display: flex;
-	max-width: 50%;
+	max-width: 90%;
 	justify-content: space-between;
+	margin-top: 1em;
 }
 
 .shape3 {
@@ -262,6 +262,59 @@ input {
 	left: -10%;
 }
 
+/*======================*/
+/*Features section      */
+/*======================*/
+
+.description-features {
+	text-align: center;
+	max-width: 610px;
+	margin: 0 auto;
+}
+
+.description-features > h4 {
+	line-height: 23px;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 140px 0 40px 0;
+}
+
+.description-features > h2 {
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 63px;
+	margin-bottom: 40px;
+}
+
+.description-features > p {
+	font-size: 21px;
+	line-height: 32px;
+	font-weight: 100;
+}
+
+/*Features */
+
+.feature-learnmore {
+	display: flex;
+	justify-content: center;
+}
+
+.features-wrapper {
+	max-width: 300px;
+	text-align: center;
+}
+
+.tracking-shape {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	background-image: linear-gradient(to left top, #1C0FD7, #9c09db);
+	border-radius: 14px;: 
+}
+
+i {
+	vertical-align: middle;
+}
 
 
 
