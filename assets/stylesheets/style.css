@@ -304,16 +304,36 @@ input {
 	text-align: center;
 }
 
-.tracking-shape {
+.shape {
 	width: 50px;
 	height: 50px;
-	margin: 0 auto;
-	background-image: linear-gradient(to left top, #1C0FD7, #9c09db);
-	border-radius: 14px;: 
+	border-radius: 14px; 
+	margin: 0 auto; 
 }
 
-i {
+.tracking-shape {
+	background-image: linear-gradient(to left top, #1C0FD7, #9c09db);
+}
+
+.machine-shape {
+	background-image: linear-gradient(to left top, #fc3832, #f2c314);
+}
+
+.smart-notifications-shape {
+	background-image: linear-gradient(to left top, #3214f2, #32fbfc);
+}
+
+
+.icons {
 	vertical-align: middle;
+	height: auto;
+	line-height: 45px !important;
+}
+
+.shape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
