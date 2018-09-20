@@ -266,6 +266,11 @@ input {
 /*Features section      */
 /*======================*/
 
+.features {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 .description-features {
 	text-align: center;
 	max-width: 610px;
@@ -296,12 +301,27 @@ input {
 
 .feature-learnmore {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	margin-top: 80px;
 }
 
 .features-wrapper {
 	max-width: 300px;
 	text-align: center;
+}
+
+.features-wrapper > h5 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+}
+
+.features-wrapper > p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 8px 0 10px 0;
+
 }
 
 .shape {
