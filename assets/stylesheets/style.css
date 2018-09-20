@@ -321,14 +321,19 @@ input {
 	font-weight: 400;
 	line-height: 24px;
 	margin: 8px 0 10px 0;
+}
 
+.features-wrapper > a {
+	color: #540CFA;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .shape {
 	width: 50px;
 	height: 50px;
 	border-radius: 14px; 
-	margin: 0 auto; 
+	margin: 10px auto; 
 }
 
 .tracking-shape {
@@ -355,6 +360,16 @@ input {
 	justify-content: center;
 	align-items: center;
 }
+
+/*======================*/
+/*TV Shows Showcase     */
+/*======================*/
+
+.tv-shows {
+	width: 100%;
+}
+
+
 
 
 
