@@ -302,6 +302,7 @@ input {
 .feature-learnmore {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-top: 80px;
 }
 
@@ -349,11 +350,11 @@ input {
 }
 
 
-.icons {
+/*.icons {
 	vertical-align: middle;
 	height: auto;
 	line-height: 45px !important;
-}
+} align icons center of a div*/
 
 .shape {
 	display: flex;
@@ -366,8 +367,25 @@ input {
 /*======================*/
 
 .tv-shows {
-	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 300px;
+	margin-top: 100px;
+	justify-content: center;
+	padding-left: 40px;
+	padding-right: 40px;
 }
+
+.tv-shows > img {
+	width: 220px;
+	height: 330px;
+	border-radius: 6px;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+	margin: 40px;
+}
+
+
+
 
 
 
