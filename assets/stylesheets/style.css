@@ -388,9 +388,11 @@ input {
 /*App Showcase Styles   */
 /*======================*/
 
+
 .app-showcase {
 	margin-top: 140px;
 	margin-left: 12%;
+	display: flex;
 }
 
 .app-description {
@@ -430,6 +432,19 @@ input {
 .modes > span {
 	padding-left: 20px;
 	font-size: 16px;
+}
+
+.iphone-mockup {
+	position: relative;
+	left: 200px;
+	top: 74px;
+	z-index: 1000;
+}
+
+.web-app-mockup {
+	position: relative;
+	left: 59px;
+	bottom: 150px;
 }
 
 
