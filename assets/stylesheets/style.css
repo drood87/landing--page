@@ -500,9 +500,16 @@ input {
 	padding: 10px 24px;
 	border-radius: 4px;
 	color: #fff;
+	cursor: pointer;
 }
 
 /* Testimonials Box Styles */
+
+.people-testimonials {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
 
 .testimonials-box {
 	background: rgba(255, 255, 255, 0.08);
@@ -527,6 +534,19 @@ input {
 
 .testimonial-name {
 	margin-left: 8px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.testimonial-content > p {
+	font-size: 13px;
+	line-height: 20px;
+	margin: 14px 0 35px 0;
+}
+
+.testimonial-content > span {
+	font-size: 12px;
+	line-height: 16px;
 }
 
 
